@@ -80,7 +80,7 @@ In this case, we use Slim pruning and LSQ Quantization to 4 bits as the optimal 
 
 To train and evaluate the XGBoost model on the extracted metadata, run:
 
-**Note.** _Before running the below script, change the path in prepare_dataset function to the location where your extracted metadata is stored. _
+**Note.** _Before running the below script, change the path in prepare_dataset function to the location where your extracted metadata is stored._
 ```eval
 python meta_prediction_baseline.py
 ```
